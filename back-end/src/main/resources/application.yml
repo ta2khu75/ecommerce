@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: back-end
+  datasource:
+    url: jdbc:mysql://localhost:3366/ecommerce
+    username: root
+    password: Bom474002
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+app:
+  api-prefix: /api/v1
+jwt:
+  signature: VIoeEebXFeqa5vzBEK3gKhRXnuj1UOb3nJfm-I12sh2n2aswsYtohVlSbEgEWX39vhyT2dlwnNLaW5iP4_2-2g
